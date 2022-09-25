@@ -4074,3 +4074,33 @@ input, select, textarea {
 			color: rgba(102, 102, 102, 0.5);
 			margin-bottom: 2rem;
 		}
+
+		.film_strip {
+			display: flex;
+			align-items: stretch; /* Default */
+			justify-content: space-around;
+			height: 400px;
+			width: 100%;
+			background: #cacaca;
+			margin: 0;
+			padding: 0;
+			
+		  }
+		  
+		  .film_strip li {
+			display: block;
+			flex: 0 1 400px;
+		  }
+		  
+		  .film_strip li img {
+			caption-side: bottom;
+			background: #DEE0E3;
+			height: 100%;
+			width: 100%;
+			padding: 5px;
+			border: 1px solid #AAA;
+			color: #3C3C3D;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-size: 16px;
+		  }
